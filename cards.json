@@ -1,0 +1,102 @@
+[
+ {
+   "g_id": 1,
+   "g_name": "animal",
+   "g_image": "animal.png",
+   "total_cards": 10,
+   "cards": [
+      {
+         "id": "a01",
+         "g_id": 1,
+         "name": "Dragon",
+         "description": "The protector ",
+         "image": "https://cdn.com/cards/animal/dragon.webp",
+         "rarity": "common",
+         "xp": 70,
+         "health": 300,
+         "defense": 150,
+         "attack": 500
+      }
+   ]
+},
+ {
+   "g_id": 2,
+   "g_name": "cars",
+   "g_image": "cars.png",
+   "total_cards": 9,
+   "cards": [
+      {
+         "id": "c01",
+         "g_id": 2,
+         "name": "BMW",
+         "description": "the ancient forests",
+         "image": "https://cdn.com/cards/animal/dragon.webp",
+         "rarity": "common",
+         "xp": 70,
+         "health": 300,
+         "defense": 150,
+         "attack": 500
+      }
+   ]
+},
+ {
+   "g_id": 3,
+   "g_name": "actors",
+   "g_image": "actors.png",
+   "total_cards": 8,
+   "cards": [
+      {
+         "id": "aa01",
+         "g_id": 3,
+         "name": "Ahmed Helmy",
+         "description": "The  ancient forests",
+         "image": "https://cdn.com/cards/animal/dragon.webp",
+         "rarity": "common",
+         "xp": 70,
+         "health": 300,
+         "defense": 150,
+         "attack": 500
+      }
+   ]
+},
+ {
+   "g_id": 4,
+   "g_name": "nutral",
+   "g_image": "nutral.png",
+   "total_cards": 7,
+   "cards": [
+      {
+         "id": "n01",
+         "g_id": 4,
+         "name": "Cool",
+         "description": "the ancient forests",
+         "image": "https://cdn.com/cards/animal/dragon.webp",
+         "rarity": "common",
+         "xp": 70,
+         "health": 300,
+         "defense": 150,
+         "attack": 500
+      }
+   ]
+},
+ {
+   "g_id": 5,
+   "g_name": "epic",
+   "g_image": "epic.png",
+   "total_cards": 3,
+   "cards": [
+      {
+         "id": "e01",
+         "g_id": 5,
+         "name": "Epic",
+         "description": "The protector sbcjs",
+         "image": "https://cdn.com/cards/animal/dragon.webp",
+         "rarity": "common",
+         "xp": 70,
+         "health": 300,
+         "defense": 150,
+         "attack": 500
+      }
+   ]
+}
+]
