@@ -1,102 +1,356 @@
 [
  {
-   "g_id": 1,
-   "g_name": "animal",
-   "g_image": "animal.png",
-   "total_cards": 10,
-   "cards": [
-      {
-         "id": "a01",
-         "g_id": 1,
-         "name": "Dragon",
-         "description": "The protector ",
-         "image": "https://cdn.com/cards/animal/dragon.webp",
-         "rarity": "common",
-         "xp": 70,
-         "health": 300,
-         "defense": 150,
-         "attack": 500
-      }
-   ]
-},
- {
-   "g_id": 2,
-   "g_name": "cars",
-   "g_image": "cars.png",
+   "g_id": 100,
+   "g_name": "solar system",
+   "active": "yes",
    "total_cards": 9,
    "cards": [
       {
-         "id": "c01",
-         "g_id": 2,
-         "name": "BMW",
-         "description": "the ancient forests",
-         "image": "https://cdn.com/cards/animal/dragon.webp",
+         "id": "s_100",
+         "g_id": 100,
+         "name": "Sun",
+         "description": "Massive star at the center, providing light and solar energy",
+         "image": "a2",
+         "rarity": "legendary",
+         "xp": 5000,
+         "health": 9500,
+         "defense": 8500,
+         "attack": 9900
+      },
+      {
+         "id": "s_101",
+         "g_id": 100,
+         "name": "Venus",
+         "description": "Terrestrial planet with extreme heat and thick, toxic sulfuric clouds",
+         "image": "a4",
+         "rarity": "legendary",
+         "xp": 4800,
+         "health": 9000,
+         "defense": 8800,
+         "attack": 9200
+      },
+      {
+         "id": "s_102",
+         "g_id": 100,
+         "name": "Jupiter",
+         "description": "Largest planet with a strong magnetic field and massive gravity",
+         "image": "a5",
+         "rarity": "epic",
+         "xp": 3500,
+         "health": 8800,
+         "defense": 7000,
+         "attack": 8500
+      },
+      {
+         "id": "s_103",
+         "g_id": 100,
+         "name": "Mars",
+         "description": "The Red Planet, home to Olympus Mons and dusty deserts",
+         "image": "a3",
+         "rarity": "epic",
+         "xp": 3000,
+         "health": 7000,
+         "defense": 6500,
+         "attack": 7500
+      },
+      {
+         "id": "s_104",
+         "g_id": 100,
+         "name": "Saturn",
+         "description": "Gas giant famous for its spectacular and complex ring system",
+         "image": "a4",
+         "rarity": "epic",
+         "xp": 3200,
+         "health": 7800,
+         "defense": 8000,
+         "attack": 8200
+      },
+      {
+         "id": "s_105",
+         "g_id": 100,
+         "name": "Earth",
+         "description": "Only known planet with liquid water and diverse biological life",
+         "image": "a6",
          "rarity": "common",
-         "xp": 70,
-         "health": 300,
-         "defense": 150,
-         "attack": 500
+         "xp": 2500,
+         "health": 6000,
+         "defense": 6500,
+         "attack": 5500
+      },
+      {
+         "id": "s_106",
+         "g_id": 100,
+         "name": "Moon",
+         "description": "Earth's only natural satellite, stabilizing our planet's axial tilt",
+         "image": "a8",
+         "rarity": "common",
+         "xp": 800,
+         "health": 2200,
+         "defense": 3000,
+         "attack": 2500
+      },
+      {
+         "id": "s_107",
+         "g_id": 100,
+         "name": "Uranus",
+         "description": "Ice giant with a unique tilt, rotating on its side",
+         "image": "a7",
+         "rarity": "common",
+         "xp": 2000,
+         "health": 5000,
+         "defense": 5500,
+         "attack": 5200
+      },
+      {
+         "id": "s_108",
+         "g_id": 100,
+         "name": "Mercury",
+         "description": "Smallest planet, closest to the Sun with a cratered surface",
+         "image": "a9",
+         "rarity": "common",
+         "xp": 1000,
+         "health": 3000,
+         "defense": 3500,
+         "attack": 4500
       }
    ]
 },
  {
-   "g_id": 3,
-   "g_name": "actors",
-   "g_image": "actors.png",
-   "total_cards": 8,
+   "g_id": 101,
+   "g_name": "kingdom",
+   "active": "yes",
+   "total_cards": 9,
    "cards": [
       {
-         "id": "aa01",
-         "g_id": 3,
-         "name": "Ahmed Helmy",
-         "description": "The  ancient forests",
-         "image": "https://cdn.com/cards/animal/dragon.webp",
+         "id": "k_101",
+         "g_id": 101,
+         "name": "Lion",
+         "description": "The majestic king with raw power and golden fur",
+         "image": "c2",
+         "rarity": "legendary",
+         "xp": 5000,
+         "health": 8800,
+         "defense": 7200,
+         "attack": 9600
+      },
+      {
+         "id": "k_102",
+         "g_id": 101,
+         "name": "Tigar",
+         "description": "A fierce orange predator with lethal and fast strikes",
+         "image": "c1",
+         "rarity": "legendary",
+         "xp": 4800,
+         "health": 8000,
+         "defense": 6000,
+         "attack": 9200
+      },
+      {
+         "id": "k_103",
+         "g_id": 101,
+         "name": "Parrot",
+         "description": "A smart red bird known for its agility and speed",
+         "image": "c3",
+         "rarity": "epic",
+         "xp": 3500,
+         "health": 4000,
+         "defense": 3500,
+         "attack": 4500
+      },
+      {
+         "id": "k_104",
+         "g_id": 101,
+         "name": "Red Fox",
+         "description": "A cunning red fox, very quick and hard to catch",
+         "image": "c4",
+         "rarity": "epic",
+         "xp": 3200,
+         "health": 4500,
+         "defense": 4000,
+         "attack": 5500
+      },
+      {
+         "id": "k_105",
+         "g_id": 101,
+         "name": "Octopus",
+         "description": "A smart red creature with 8 powerful attacking arms",
+         "image": "c5",
+         "rarity": "epic",
+         "xp": 3000,
+         "health": 6000,
+         "defense": 5500,
+         "attack": 7000
+      },
+      {
+         "id": "k_106",
+         "g_id": 101,
+         "name": "Blue Whale",
+         "description": "A giant blue whale with the highest health in the set",
+         "image": "c6",
          "rarity": "common",
-         "xp": 70,
-         "health": 300,
-         "defense": 150,
-         "attack": 500
+         "xp": 1200,
+         "health": 9900,
+         "defense": 9000,
+         "attack": 6000
+      },
+      {
+         "id": "k_107",
+         "g_id": 101,
+         "name": "Shark",
+         "description": "A blue sea predator with a very fast and strong attack",
+         "image": "c7",
+         "rarity": "common",
+         "xp": 1000,
+         "health": 6500,
+         "defense": 4500,
+         "attack": 8500
+      },
+      {
+         "id": "k_108",
+         "g_id": 101,
+         "name": "Dolphin",
+         "description": "A friendly blue mammal known for its high intelligence",
+         "image": "c8",
+         "rarity": "common",
+         "xp": 800,
+         "health": 5500,
+         "defense": 5000,
+         "attack": 4000
+      },
+      {
+         "id": "k_109",
+         "g_id": 101,
+         "name": "Kingfisher",
+         "description": "A small, very fast blue bird expert at fishing",
+         "image": "c9",
+         "rarity": "common",
+         "xp": 600,
+         "health": 3200,
+         "defense": 3000,
+         "attack": 3500
       }
    ]
 },
  {
-   "g_id": 4,
-   "g_name": "nutral",
-   "g_image": "nutral.png",
-   "total_cards": 7,
+   "g_id": 102,
+   "g_name": "Nature",
+   "active": "yes",
+   "total_cards": 9,
    "cards": [
       {
-         "id": "n01",
-         "g_id": 4,
-         "name": "Cool",
-         "description": "the ancient forests",
-         "image": "https://cdn.com/cards/animal/dragon.webp",
+         "id": "n_102",
+         "g_id": 102,
+         "name": "Volcano",
+         "description": "Explosive lava power that destroys everything in its path",
+         "image": "k2",
+         "rarity": "legendary",
+         "xp": 5000,
+         "health": 8500,
+         "defense": 8000,
+         "attack": 9800
+      },
+      {
+         "id": "n_103",
+         "g_id": 102,
+         "name": "Thunder",
+         "description": "A celestial lightning strike that shocks enemies with light",
+         "image": "k1",
+         "rarity": "legendary",
+         "xp": 4800,
+         "health": 7500,
+         "defense": 6500,
+         "attack": 9500
+      },
+      {
+         "id": "n_104",
+         "g_id": 102,
+         "name": "Fire",
+         "description": "Glowing flames that burn opponents with a sweeping attack",
+         "image": "k4",
+         "rarity": "epic",
+         "xp": 3500,
+         "health": 6000,
+         "defense": 4500,
+         "attack": 8800
+      },
+      {
+         "id": "n_105",
+         "g_id": 102,
+         "name": "Meteor",
+         "description": "A flaming space rock falling from the sky like a bomb",
+         "image": "k5",
+         "rarity": "epic",
+         "xp": 3200,
+         "health": 5500,
+         "defense": 5000,
+         "attack": 9200
+      },
+      {
+         "id": "n_106",
+         "g_id": 102,
+         "name": "Tornado",
+         "description": "Violent rotating winds that completely scatter enemy defenses",
+         "image": "k3",
+         "rarity": "epic",
+         "xp": 3000,
+         "health": 7000,
+         "defense": 6000,
+         "attack": 7500
+      },
+      {
+         "id": "n_107",
+         "g_id": 102,
+         "name": "Tsunami",
+         "description": "A massive ocean wave that crushes everything in its way",
+         "image": "k6",
          "rarity": "common",
-         "xp": 70,
-         "health": 300,
-         "defense": 150,
-         "attack": 500
+         "xp": 1200,
+         "health": 9000,
+         "defense": 8500,
+         "attack": 6500
+      },
+      {
+         "id": "n_108",
+         "g_id": 102,
+         "name": "Glacier",
+         "description": "A solid iceberg with the strongest defense against strikes",
+         "image": "k7",
+         "rarity": "common",
+         "xp": 1000,
+         "health": 8800,
+         "defense": 9500,
+         "attack": 4000
+      },
+      {
+         "id": "n_109",
+         "g_id": 102,
+         "name": "Rain",
+         "description": "Continuous drops that slowly weaken the opponent with patience",
+         "image": "k8",
+         "rarity": "common",
+         "xp": 800,
+         "health": 5000,
+         "defense": 5500,
+         "attack": 3000
+      },
+      {
+         "id": "n_110",
+         "g_id": 102,
+         "name": "River",
+         "description": "A continuous water flow that never stops and is very flexible",
+         "image": "k9",
+         "rarity": "common",
+         "xp": 600,
+         "health": 5500,
+         "defense": 6000,
+         "attack": 5000
       }
    ]
 },
  {
-   "g_id": 5,
-   "g_name": "epic",
-   "g_image": "epic.png",
-   "total_cards": 3,
-   "cards": [
-      {
-         "id": "e01",
-         "g_id": 5,
-         "name": "Epic",
-         "description": "The protector sbcjs",
-         "image": "https://cdn.com/cards/animal/dragon.webp",
-         "rarity": "common",
-         "xp": 70,
-         "health": 300,
-         "defense": 150,
-         "attack": 500
-      }
-   ]
+   "cards": []
+},
+ {
+   "cards": []
 }
 ]
